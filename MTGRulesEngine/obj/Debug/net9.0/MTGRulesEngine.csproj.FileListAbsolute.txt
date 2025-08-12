@@ -1,0 +1,14 @@
+D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\obj\Debug\net9.0\MTGRulesEngine.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\obj\Debug\net9.0\MTGRulesEngine.AssemblyInfoInputs.cache
+D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\obj\Debug\net9.0\MTGRulesEngine.AssemblyInfo.cs
+D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\obj\Debug\net9.0\MTGRulesEngine.csproj.CoreCompileInputs.cache
+D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\bin\Debug\net9.0\MTGRulesEngine.exe
+D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\bin\Debug\net9.0\MTGRulesEngine.deps.json
+D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\bin\Debug\net9.0\MTGRulesEngine.runtimeconfig.json
+D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\bin\Debug\net9.0\MTGRulesEngine.dll
+D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\bin\Debug\net9.0\MTGRulesEngine.pdb
+D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\obj\Debug\net9.0\MTGRulesEngine.dll
+D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\obj\Debug\net9.0\refint\MTGRulesEngine.dll
+D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\obj\Debug\net9.0\MTGRulesEngine.pdb
+D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\obj\Debug\net9.0\MTGRulesEngine.genruntimeconfig.cache
+D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\obj\Debug\net9.0\ref\MTGRulesEngine.dll
