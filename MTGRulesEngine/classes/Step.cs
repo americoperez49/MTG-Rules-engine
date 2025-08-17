@@ -1,26 +1,24 @@
 namespace MTGRulesEngine
 {
     /// <summary>
-    /// Represents the different steps within phases in a Magic: The Gathering turn.
-    /// Rule 500.1: The beginning, combat, and ending phases are further broken down into steps, which proceed in order.
+    /// Represents the steps within each phase of a Magic: The Gathering turn. Rule 500.1: A turn consists of five phases, in order: beginning, precombat main, combat, postcombat main, and ending.
     /// </summary>
     public enum Step
     {
-        // Beginning Phase Steps (Rule 501.1)
+        // Beginning Phase
         Untap,
         Upkeep,
         Draw,
 
-        // Main Phase has no steps (Rule 505.2) - but we might use a "Main" step for consistency in state tracking
-
-        // Combat Phase Steps (Rule 506.1)
+        // Main Phase (no specific steps, but actions occur)
+        // Combat Phase
         BeginningOfCombat,
         DeclareAttackers,
         DeclareBlockers,
         CombatDamage,
         EndOfCombat,
 
-        // Ending Phase Steps (Rule 512.1)
+        // Ending Phase
         End,
         Cleanup
     }

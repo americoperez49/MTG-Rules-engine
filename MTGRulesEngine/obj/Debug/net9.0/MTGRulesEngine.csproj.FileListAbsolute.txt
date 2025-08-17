@@ -12,3 +12,4 @@ D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\obj\Debug\net9.0\refint
 D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\obj\Debug\net9.0\MTGRulesEngine.pdb
 D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\obj\Debug\net9.0\MTGRulesEngine.genruntimeconfig.cache
 D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesEngine\obj\Debug\net9.0\ref\MTGRulesEngine.dll
+D:\Users\Americo\Code\C#\MTG Rules engine\MTGRulesengine\obj\Debug\net9.0\MTGRulesEngine.sourcelink.json

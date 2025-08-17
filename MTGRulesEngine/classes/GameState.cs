@@ -131,7 +131,7 @@ namespace MTGRulesEngine
             public int CurrentLoyalty { get; set; } // For planeswalkers
             public int CurrentDefense { get; set; } // For battles
             public Dictionary<string, int> Counters { get; set; } // e.g., {"+1/+1": 2, "Loyalty": 3}
-            public List<string> CurrentAbilities { get; set; } // Abilities gained/lost due to continuous effects
+            public List<CardKeyword> CurrentKeywords { get; set; } // Keywords gained/lost due to continuous effects
 
             public Permanent(Card card, Player controller, Player owner)
             {
@@ -148,7 +148,7 @@ namespace MTGRulesEngine
                 CurrentLoyalty = card.Loyalty ?? 0;
                 CurrentDefense = card.Defense ?? 0;
                 Counters = new Dictionary<string, int>();
-                CurrentAbilities = new List<string>(); // Will be populated by rules engine based on card.RulesText and continuous effects
+                CurrentKeywords = new List<CardKeyword>(card.Keywords); // Initialize with card's keywords
             }
 
             /// <summary>

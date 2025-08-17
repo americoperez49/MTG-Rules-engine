@@ -52,10 +52,14 @@ namespace MTGRulesEngine
         public List<string> Supertypes { get; set; }
 
         /// <summary>
-        /// The rules text of the card. Rule 207.1: The text box is printed on the lower half of the card. It usually contains rules text defining the card’s abilities.
-        /// This will be parsed into specific abilities.
+        /// The abilities of the card, parsed from its rules text. Rule 113: Abilities are qualities that define what an object does, or that change the rules of the game.
         /// </summary>
-        public string RulesText { get; set; } // Raw text for parsing
+        public List<Ability> Abilities { get; set; }
+
+        /// <summary>
+        /// The keyword abilities of the card. Rule 702: Keyword Abilities.
+        /// </summary>
+        public List<CardKeyword> Keywords { get; set; }
 
         /// <summary>
         /// The power of the card (for creatures). Rule 208.1: The first number is its power (the amount of damage it deals in combat).
@@ -93,9 +97,16 @@ namespace MTGRulesEngine
         /// </summary>
         public int? LifeModifier { get; set; }
 
+        /// <summary>
+        /// The owner of the card. Rule 108.3: The owner of a card in the game is the player who started the game with it in their deck.
+        /// </summary>
+        public Player Owner { get; set; }
+
         // Constructor for easy initialization
         public Card(string name, string manaCost, int manaValue, List<string> colors, List<string> colorIdentity,
-                    List<string> cardTypes, List<string> subtypes, List<string> supertypes, string rulesText,
+                    List<string> cardTypes, List<string> subtypes, List<string> supertypes, List<Ability> abilities,
+                    List<CardKeyword> keywords, // Added keywords to constructor
+                    Player owner,
                     int? power = null, int? toughness = null, int? loyalty = null, int? defense = null,
                     int? handModifier = null, int? lifeModifier = null)
         {
@@ -107,7 +118,9 @@ namespace MTGRulesEngine
             CardTypes = cardTypes ?? new List<string>();
             Subtypes = subtypes ?? new List<string>();
             Supertypes = supertypes ?? new List<string>();
-            RulesText = rulesText;
+            Abilities = abilities ?? new List<Ability>();
+            Keywords = keywords ?? new List<CardKeyword>(); // Initialize keywords
+            Owner = owner;
             Power = power;
             Toughness = toughness;
             Loyalty = loyalty;
